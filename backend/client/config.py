@@ -1,0 +1,6 @@
+SAMPLE_RATE = 16000
+CHANNELS = 1
+BLOCK_SIZE = 320      # 20 ms
+DTYPE = "int16"
+
+SERVER_URL = "ws://127.0.0.1:8000/audio"
