@@ -1,3 +1,0 @@
-2026-06-29 11:34:23.836 | INFO     | app.websocket.audio_socket:websocket_endpoint:17 - Client connected
-2026-06-29 11:34:23.838 | INFO     | app.websocket.audio_socket:websocket_endpoint:25 - Received 12 bytes
-2026-06-29 11:34:23.839 | INFO     | app.websocket.audio_socket:websocket_endpoint:33 - Client disconnected
