@@ -1,3 +1,13 @@
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+
+WOKADA_SERVER = ROOT.parent / "wokada" / "server"
+
+if str(WOKADA_SERVER) not in sys.path:
+    sys.path.insert(0, str(WOKADA_SERVER))
+    
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI

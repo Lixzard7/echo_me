@@ -10,7 +10,7 @@ class VoiceService:
 
     async def initialize(self):
         await self.manager.load()
-        await self.converter.initialize()
+        await self.converter.initialize(self.manager)
 
     async def convert(self, audio: bytes) -> bytes:
         return await self.converter.convert(audio)

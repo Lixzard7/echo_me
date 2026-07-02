@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 class VoiceConverter(ABC):
 
     @abstractmethod
-    async def initialize(self):
-        """Load model into memory."""
+    async def initialize(self, manager=None):
+        """Load model into memory. Optionally receive a `ModelManager` instance."""
         pass
 
     @abstractmethod
